@@ -1,0 +1,23 @@
+# FastAPI и зависимости
+fastapi
+uvicorn==0.20.0
+pydantic==1.10.4
+fastapi-users[sqlalchemy]
+fastapi-users-db-sqlalchemy
+
+# База данных
+SQLAlchemy==1.4.41
+sqlalchemy2-stubs==0.0.2a32
+sqlalchemy_database==0.1.0
+asyncpg==0.27.0
+alembic
+
+# Авторизация (JWT)
+PyJWT==2.6.0
+
+# Telegram-бот
+aiogram
+aiohttp
+
+# Асинхронные инструменты
+python-dotenv==0.21.0
